@@ -61,7 +61,7 @@ class Main {
 
     public static void writeIntoFile(String s) {
         try {
-            FileWriter writer = new FileWriter("CPU.json");
+            FileWriter writer = new FileWriter("Memory.json");
             writer.write(s);
             writer.close();
         } catch (IOException e) {
